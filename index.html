@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>José Augusto Lopes | Dev</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand mono" href="index.html">&lt;JAL /&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/portfolio.html">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero d-flex align-items-center" id="hero">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <p class="eyebrow mono">// estudante de ADS</p>
+          <h1 class="hero-name">José<br><span class="accent">Augusto</span><br>Lopes</h1>
+          <p class="hero-sub">19 anos · Desenvolvedor em formação · UniCesumar</p>
+          <p class="hero-desc">
+            Apaixonado por tecnologia e resolução de problemas. Estudando Análise e Desenvolvimento de Sistemas com foco em <span class="mono highlight">Python</span> e <span class="mono highlight">Linguagem C</span>.
+          </p>
+          <div class="d-flex gap-3 flex-wrap mt-4">
+            <a href="pages/portfolio.html" class="btn btn-primary-custom">Ver Projetos <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="pages/contato.html" class="btn btn-outline-custom">Entre em Contato</a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex justify-content-center">
+          <div class="code-card">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="ms-2 mono" style="font-size:.75rem;color:#888">perfil.py</span>
+            </div>
+            <pre class="code-body"><span class="c-purple">class</span> <span class="c-yellow">Dev</span>:
+  <span class="c-blue">nome</span>     = <span class="c-green">"José Augusto"</span>
+  <span class="c-blue">idade</span>    = <span class="c-orange">19</span>
+  <span class="c-blue">curso</span>    = <span class="c-green">"ADS"</span>
+  <span class="c-blue">facul</span>    = <span class="c-green">"UniCesumar"</span>
+  <span class="c-blue">skills</span>   = [
+    <span class="c-green">"Python"</span>,
+    <span class="c-green">"C"</span>,
+    <span class="c-green">"HTML/CSS"</span>,
+    <span class="c-green">"Bootstrap"</span>
+  ]
+
+  <span class="c-purple">def</span> <span class="c-yellow">status</span>(<span class="c-blue">self</span>):
+    <span class="c-purple">return</span> <span class="c-green">"Aprendendo sempre 🚀"</span></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre py-6" id="sobre">
+    <div class="container">
+      <p class="section-eyebrow mono">// sobre mim</p>
+      <h2 class="section-title">Quem sou eu</h2>
+      <div class="row gy-4 mt-2">
+        <div class="col-md-4">
+          <div class="card-skill">
+            <div class="skill-icon"><i class="bi bi-mortarboard-fill"></i></div>
+            <h5>Formação</h5>
+            <p>Cursando Análise e Desenvolvimento de Sistemas na <strong>UniCesumar</strong>.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-skill">
+            <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+            <h5>Linguagens</h5>
+            <p>Conhecimento em <strong>Python</strong> para scripts e automações, e <strong>Linguagem C</strong> para lógica de programação de baixo nível.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-skill">
+            <div class="skill-icon"><i class="bi bi-rocket-takeoff-fill"></i></div>
+            <h5>Objetivo</h5>
+            <p>Construir soluções reais, aprender novas tecnologias e crescer como desenvolvedor a cada projeto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section py-6">
+    <div class="container">
+      <p class="section-eyebrow mono">// tecnologias</p>
+      <h2 class="section-title">Stack & Ferramentas</h2>
+      <div class="skills-grid mt-4">
+        <div class="skill-badge"><i class="bi bi-filetype-py"></i> Python</div>
+        <div class="skill-badge"><i class="bi bi-braces"></i> Linguagem C</div>
+        <div class="skill-badge"><i class="bi bi-filetype-html"></i> HTML5</div>
+        <div class="skill-badge"><i class="bi bi-filetype-css"></i> CSS3</div>
+        <div class="skill-badge"><i class="bi bi-bootstrap-fill"></i> Bootstrap</div>
+        <div class="skill-badge"><i class="bi bi-filetype-js"></i> JavaScript</div>
+        <div class="skill-badge"><i class="bi bi-git"></i> Git</div>
+        <div class="skill-badge"><i class="bi bi-github"></i> GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section py-6">
+    <div class="container text-center">
+      <p class="mono" style="color:var(--accent)">// vamos trabalhar juntos?</p>
+      <h2 class="cta-title">Confira meus projetos</h2>
+      <a href="pages/portfolio.html" class="btn btn-primary-custom mt-3">Ver Portfólio <i class="bi bi-folder2-open ms-1"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <span class="mono">&lt;JAL /&gt; © 2025</span>
+      <div class="d-flex gap-3">
+        <a href="https://github.com/JOSER81" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-augusto-lopes-sobrinho-7a340537a/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/5544998597387" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

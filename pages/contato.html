@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato | José Augusto Lopes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand mono" href="../index.html">&lt;JAL /&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <p class="eyebrow mono">// fale comigo</p>
+      <h1 class="hero-name" style="font-size: clamp(2.5rem,6vw,4.5rem)">Contato</h1>
+      <p class="hero-sub">Disponível para projetos, parcerias e oportunidades</p>
+    </div>
+  </section>
+
+  <!-- CONTATO CARDS -->
+  <section class="py-6">
+    <div class="container">
+      <div class="row gy-4 justify-content-center">
+
+        <!-- Email -->
+        <div class="col-md-6 col-lg-4">
+          <a href="mailto:joseaugusto@email.com" class="contact-card">
+            <div class="contact-icon email-icon">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <h5>E-mail</h5>
+            <p class="mono">joseaugusto@email.com</p>
+            <span class="contact-action">Enviar e-mail <i class="bi bi-arrow-up-right"></i></span>
+          </a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="col-md-6 col-lg-4">
+          <a href="https://www.linkedin.com/in/jos%C3%A9-augusto-lopes-sobrinho-7a340537a/" target="_blank" class="contact-card">
+            <div class="contact-icon linkedin-icon">
+              <i class="bi bi-linkedin"></i>
+            </div>
+            <h5>LinkedIn</h5>
+            <p class="mono">jose-augusto-lopes</p>
+            <span class="contact-action">Ver perfil <i class="bi bi-arrow-up-right"></i></span>
+          </a>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="col-md-6 col-lg-4">
+          <a href="https://wa.me/5544998597387?text=Olá%20José%2C%20vim%20pelo%20seu%20portfólio!" target="_blank" class="contact-card">
+            <div class="contact-icon whatsapp-icon">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <h5>WhatsApp</h5>
+            <p class="mono">(44) 9 9859-7387</p>
+            <span class="contact-action">Enviar mensagem <i class="bi bi-arrow-up-right"></i></span>
+          </a>
+        </div>
+
+        <!-- GitHub -->
+        <div class="col-md-6 col-lg-4">
+          <a href="https://github.com/JOSER81" target="_blank" class="contact-card">
+            <div class="contact-icon github-icon">
+              <i class="bi bi-github"></i>
+            </div>
+            <h5>GitHub</h5>
+            <p class="mono">github.com/JOSER81</p>
+            <span class="contact-action">Ver repositórios <i class="bi bi-arrow-up-right"></i></span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Mensagem extra -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-7">
+          <div class="msg-box">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="ms-2 mono" style="font-size:.75rem;color:#888">mensagem.py</span>
+            </div>
+            <pre class="code-body" style="margin:0"><span class="c-purple">def</span> <span class="c-yellow">contato</span>():
+  <span class="c-blue">preferencia</span> = <span class="c-green">"WhatsApp ou E-mail"</span>
+  <span class="c-blue">resposta</span>   = <span class="c-green">"Em até 24 horas"</span>
+  <span class="c-blue">disponivel</span> = <span class="c-orange">True</span>
+
+  <span class="c-purple">return</span> {
+    <span class="c-green">"aberto_a"</span>: [
+      <span class="c-green">"Projetos acadêmicos"</span>,
+      <span class="c-green">"Freelas Web"</span>,
+      <span class="c-green">"Colaborações open source"</span>
+    ]
+  }</pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <span class="mono">&lt;JAL /&gt; © 2025</span>
+      <div class="d-flex gap-3">
+        <a href="https://github.com/JOSER81" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-augusto-lopes-sobrinho-7a340537a/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/5544998597387" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
